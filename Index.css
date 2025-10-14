@@ -27,6 +27,11 @@ header p {
 
 }
 
+header a {
+    color: white;
+    display: flex;
+}
+
 nav {
     background: linear-gradient(50deg, #ffffff, #930b30);
     display: flex;
@@ -54,7 +59,7 @@ a {
     display: flex;
     padding: 0;
     width: 400%;
-    animation: slide 20s infinite alternate ease-in-out;
+    animation: slide 15s infinite alternate ease-in-out;
 }
 
 .slider-box li {
@@ -63,7 +68,7 @@ a {
     position: relative;
 }
 .slider-box img {
-    width: 10%;
+    width: 9%;
 }
 
 @keyframes slide {
@@ -76,7 +81,7 @@ a {
     50% {margin-left: -200%; }
     70% {margin-left: -200%; }
 
-    75% {margin-left: -300%; }
+    75% {margin-left: -300% }
     100% {margin-left: -300%; }
 }
 
