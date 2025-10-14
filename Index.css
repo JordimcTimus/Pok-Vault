@@ -5,20 +5,31 @@ body {
     color: white;
     font-family: Arial, sans-serif;
 }
+p {
+
+}
 
 header {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: black;
     color: white;
+}
+
+header div {
+
 }
 
 header img{
     justify-content: center;
     height: 50px;
     width: 50px;
+}
 
+header img .logo {
+    padding-right: 70px ;
 }
 
 header p {
@@ -29,7 +40,7 @@ header p {
 
 header a {
     color: white;
-    display: flex;
+
 }
 
 nav {
