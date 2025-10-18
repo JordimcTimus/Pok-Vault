@@ -1,45 +1,44 @@
-body {
-    background-color: #ff917d;
+h1 {
+    display: flex;
+    margin-top: 2em;
 }
 
-header {
+h2 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.productes {
+    display: flex;
+    width: 73em;
+    margin-top: 2em;
+    background-color: #333333;
+}
+
+.productes img {
+    height: 30em;
+}
+
+.producto {
     background-color: black;
-    color: white;
+    padding-left: 20px;
+    padding-right: 3em;
 }
 
-header img{
-    justify-content: center;
-    height: 50px;
-    width: 50px;
+.titulo {
+    font-size: 2em;
+    color: #ffffff;
 
 }
-
-header p {
-    width: 110px;
-    font-size: 1.5em;
-
-}
-
-nav {
-    background-color: red;
-    display: flex;
-    padding: 1em;
-    justify-content: space-between
-}
-
-img {
+.texto {
     float: left;
-    width: 35%;
-    height: 70vh;
-    padding-left: 10%;
+    color: #ffffff;
+    margin-top: 0px;
+    font-size: 1em;
 }
 
-.contenido {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-top: 3%;
+.precio {
+    font-size: 2em;
+    color: gray;
+    margin-top: 0px;
 }
+
